@@ -78,7 +78,7 @@ a {
 
 .menu {
   position: fixed;
-  top: -100%; 
+  top: -200%; 
   right: 0px; 
   width: 100%;
   max-width: 450px;
@@ -411,4 +411,5 @@ a {
     text-align: center;
     font-size: 8px;
 }
+
 
