@@ -16,10 +16,15 @@ html {
 }
 
 body {
+  display: flex;           
+  flex-direction: column;  
+  min-height: 100vh;
   background: #CC4E39;
   color: #fff;
   max-width: 393px;
+  width: 100%;
   margin: auto;
+  overflow-x: hidden;
 }
 
 .header {
@@ -93,7 +98,8 @@ body {
   position: fixed;
   top: -100%; 
   right: 0px; 
-  width: 393px;
+  width: 100%;
+  max-width: 393px;
   height: 100vh;
   background: #CC4E39;
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
@@ -385,11 +391,12 @@ h1 {
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
-  width: 393px;
+  width: 100%;
+  max-width: 393px;
   height: 100px;
   background: #A9402E;
+  margin-top: auto;
 }
-
 .footer_png {
     width: 125.45px;
     height: 42.14px;
