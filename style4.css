@@ -6,10 +6,15 @@
 }
 
 body {
+  display: flex;           
+  flex-direction: column;  
+  min-height: 100vh;
   background: #CC4E39;
   color: #fff;
   max-width: 393px;
+  width: 100%;
   margin: auto;
+  overflow-x: hidden;
 }
 
 html {
@@ -88,7 +93,8 @@ html {
   position: fixed;
   top: -100%; 
   right: 0px; 
-  width: 393px;
+  width: 100%;
+  max-width: 393px;
   height: 100vh;
   background: #CC4E39;
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
@@ -123,9 +129,9 @@ html {
   transition: color 0.3s;
 }
 
-.menu a:hover {
+/*.menu a:hover {
   color: #007bff;
-}
+}*/
 
 .sns ul {
     display: flex;
@@ -362,9 +368,11 @@ html {
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
-  width: 393px;
+  width: 100%;
+  max-width: 393px;
   height: 100px;
   background: #A9402E;
+  margin-top: auto;
 }
 
 .footer_png {
