@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   background: #CC4E39;
   color: #fff;
-  max-width: 450px;
+  max-width: 393px;
   width: 100%;
   margin: auto;
   overflow-x: hidden;
@@ -33,7 +33,7 @@ a {
   height: 30px;
   position: fixed; 
   top: 20px;
-  right: 20px;
+  right: max(20px, calc(50vw - 176px));
   cursor: pointer;
   z-index: 3;
   display: inline-block;
@@ -78,10 +78,12 @@ a {
 
 .menu {
   position: fixed;
-  top: -200%; 
-  right: 0px; 
+  top: -100%; 
+  left: 50%;
+  transform: translateX(-50%);
+  right: auto; 
   width: 100%;
-  max-width: 450px;
+  max-width: 393px;
   height: 100vh;
   background: #CC4E39;
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
@@ -393,7 +395,7 @@ a {
   padding: 20px 0;
   font-size: 14px;
   width: 100%;
-  max-width: 450px;
+  max-width: 393px;
   height: 100px;
   background: #A9402E;
   margin-top: auto;
@@ -411,5 +413,6 @@ a {
     text-align: center;
     font-size: 8px;
 }
+
 
 
