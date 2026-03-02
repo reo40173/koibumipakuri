@@ -5,6 +5,10 @@
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
+.html {
+  overflow-x: hidden;
+}
+
 body {
   display: flex;           
   flex-direction: column;  
@@ -63,6 +67,8 @@ a {
 .overlay {
   position: fixed;
   inset: 0;
+  width: 100vw;         
+  height: 100vh;        
   background: rgba(0,0,0,0.5);
   opacity: 0;
   pointer-events: none;
@@ -78,12 +84,12 @@ a {
 
 .menu {
   position: fixed;
-  top: -100%; 
-  left: 50%;
-  transform: translateX(-50%);
-  right: auto; 
-  width: 100%;
+  top: -100%;
+  left: 0;              
+  right: 0;             
+  width: 100vw;         
   max-width: 393px;
+  margin: 0 auto;       
   height: 100vh;
   background: #CC4E39;
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
@@ -413,8 +419,3 @@ a {
     text-align: center;
     font-size: 8px;
 }
-
-
-
-
-
