@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>恋文ぱくり</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="menu-wrapper">
+    <input type="checkbox" id="menu-toggle" hidden>
+  
+    <label class="menu-icon" for="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+  
+    <div class="overlay"></div>
+  
+    <nav class="menu">
+        <ul>
+          <li><a href="index.html"><img src="image/rogo_white.png" alt="ロゴ" class="menu_png"></a></li>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="index2.html">インタビュー</a></li>
+          <li><a href="index3.html">本編映像</a></li>
+          <li><a href="index4.html">グッズ</a></li>
+          <li><a href="index5.html">スタッフ</a></li>
+        </ul>
+    <section class="sns">
+        <ul>
+          <li><a href="https://x.com/koibumipakuri?s=20"><i class="fab fa-x-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/koibumi_official/"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/@%E6%81%8B%E6%96%87%E3%81%B1%E3%81%8F%E3%82%8A"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </section>
+    </nav>
+</div>
+
+<header class="header">
+  <img src="image/rogo_white.png" alt="ロゴ" class="header_png">
+</header>
+
+<section class="hero">
+  <img src="image/posta_2.jpg" alt="キービジュアル">
+</section>
+
+<section class="sns">
+  <ul>
+    <li><a href="https://x.com/koibumipakuri?s=20"><i class="fab fa-x-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/koibumi_official/"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com/@%E6%81%8B%E6%96%87%E3%81%B1%E3%81%8F%E3%82%8A"><i class="fab fa-youtube"></i></a></li>
+  </ul>
+</section>
+
+<section>
+  <div class="letter-wrapper">
+    <img src="image/mainletter.png" alt="" class="letter1">
+    <img src="image/mainletter.png" alt="" class="letter2"> 
+    <div class="letter-content">
+      <h2>その想い、いただきます。</h2>
+      <p>
+            春町第一中学校に通う恋に恋する14歳の女の子フミ<br>
+            はサッカー部のひとつ上の先輩ヨリに片思い中。<br>
+            けれど、恋に奥手なフミは中々想いを伝えれずにい<br>
+            た。 そんなある日、親友のトモヨから“手紙を入れ<br>
+            ると必ず恋が実るポスト”の噂を聞くことに…<br>
+            純粋無垢なフミは想いを伝えることができるのか!?<br>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="movie">
+  <h2 class="movie_line">本編予告映像</h2>
+  <div class="movie-thumb">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/30xOD8E-Jgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <a href="index3.html" class="more-btn">もっと見る <i class="fas fa-chevron-right"></i></a>
+</section>
+
+<section class="characters">
+  <h2 class="characters_line">登場人物 / 声優</h2>
+
+  <div class="thumbs">
+    <img src="image/kao_fumi.png" class="fumi thumb-btn active" data-target="fumi">
+    <img src="image/kao_tomo.png" class="tomoyo thumb-btn" data-target="tomo">
+    <img src="image/kao_yori.png" class="yori thumb-btn" data-target="yori">
+    <img src="image/kao_posuto.png" class="posuto thumb-btn" data-target="posuto">
+  </div>
+
+  <div class="chara-slider">
+    <button class="arrow-btn arrow-left" id="arrowLeft">&#10094;</button>
+
+    <div class="chara-card active" id="chara_fumi">
+      <img src="image/main_fumi.png" alt="">
+    </div>
+    <div class="chara-card" id="chara_tomo">
+      <img src="image/main_tomo.png" alt="">
+    </div>
+    <div class="chara-card" id="chara_yori">
+      <img src="image/main_yori.png" alt="">
+    </div>
+    <div class="chara-card" id="chara_posuto">
+      <img src="image/main_posuto.png" alt="">
+    </div>
+
+    <button class="arrow-btn arrow-right" id="arrowRight">&#10095;</button>
+  </div>
+
+</section>
+
+  <div class="letter">
+      <img src="image/letter.png" alt="キービジュアル" class="le1">
+      <img src="image/letter.png" alt="キービジュアル" class="le2">
+  </div>
+    
+
+<footer class="footer">
+  <img src="image/rogo_white.png" alt="ロゴ" class="footer_png">
+  <div class="footer_text">
+    HEW2026<br>
+    恋文ぱくり製作委員会
+  </div>
+</footer>
+
+<script>
+  const targets = ['fumi', 'tomo', 'yori', 'posuto'];
+  let current = 0;
+
+  function showChara(index) {
+    current = (index + targets.length) % targets.length;
+
+    document.querySelectorAll('.thumb-btn').forEach((b, i) => {
+      b.classList.toggle('active', i === current);
+    });
+    document.querySelectorAll('.chara-card').forEach((c, i) => {
+      c.classList.toggle('active', i === current);
+    });
+  }
+
+  // アイコンクリック
+  document.querySelectorAll('.thumb-btn').forEach((btn, i) => {
+    btn.addEventListener('click', () => showChara(i));
+  });
+
+  // 矢印クリック
+  document.getElementById('arrowLeft').addEventListener('click', () => showChara(current - 1));
+  document.getElementById('arrowRight').addEventListener('click', () => showChara(current + 1));
+</script>
+
+</body>
+</html>
