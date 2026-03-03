@@ -5,7 +5,8 @@
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
-.html {
+html {
+  background-color: #CC4E39;
   overflow-x: hidden;
 }
 
@@ -66,9 +67,7 @@ a {
 
 .overlay {
   position: fixed;
-  inset: 0;
-  width: 100vw;         
-  height: 100vh;        
+  inset: 0;      
   background: rgba(0,0,0,0.5);
   opacity: 0;
   pointer-events: none;
@@ -87,8 +86,10 @@ a {
   top: -100%;
   left: 0;              
   right: 0;             
-  width: 100vw;         
+  width: 100%;         
   max-width: 393px;
+  left: 50%;
+  transform: translateX(-50%);
   margin: 0 auto;       
   height: 100vh;
   background: #CC4E39;
